@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Rye", serif;
     text-align: center;
     background-color: black;
     color: white;
@@ -20,7 +20,7 @@ body {
     z-index: 10;
 }
 .logo {
-    width: 400px;
+    width: 350px;
     margin-bottom: 20px;
 }
 
@@ -38,6 +38,7 @@ body {
     background: black;
     /*border: 1px solid #857650;*/
     border-radius: 8px;
+    
     margin: 15px;
     padding: 20px;
     width: 250px;
@@ -52,6 +53,7 @@ body {
 }
 .plato-info{
     display: none; /* Hide dish information by default */
+    font-family: 'Courier New', Courier, monospace;
     margin-top: 10px;
 }
 .cortina {
@@ -103,7 +105,7 @@ body {
     -webkit-text-stroke-color: #857650;
     top: 75px;
     font-size: 100px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Rye", serif;
     font-weight: bold;
     color: black;
     z-index: 4;
@@ -115,7 +117,7 @@ body {
     -webkit-text-stroke-color: #857650;
     top: 175px;
     font-size: 100px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Rye", serif;
     font-weight: bold;
     color: black;
     z-index: 4;
@@ -135,61 +137,55 @@ body {
 }
 .text{
     position: center;
-    background-color: #857650;
-    background-size: 15xp;
-    border-radius: 50px;
     top: 150px;
     font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Rye", serif;
     color: #857650;
     z-index: 4;
     text-align: center ;
 }
 .text1{
-    position: center;
     background-color: #857650;
-    background-size: 15xp;
-    border-radius: 50px;
+    background-size: 3px;
+    border-radius: 25px;
+    position: center;
     top: 100px;
     font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #857650;
+    font-family: "Rye", serif;
+    color: black;
     z-index: 4;
     text-align: center ;
 }
 .text2{
-    position: center;
     background-color: #857650;
-    background-size: 15xp;
-    border-radius: 50px;
+    background-size: 15px;
+    border-radius: 25px;
+    position: center;
     top: 300px;
     font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #857650;
+    font-family: "Rye", serif;
+    color: black;
     z-index: 4;
     text-align: center ;
 }
-/* Estils per a pantalles petites (mòbils) */
-@media (max-width: 600px) {
-    body {
-      font-size: 14px;
-    }
-    /* Altres estils específics per a mòbils */
+.text3{
+    background-color: #857650;
+    background-size: 15px;
+    border-radius: 25px;
+    position: center;
+    top: 500px;
+    font-size: 25px;
+    font-family: "Rye", serif;
+    color: black;
+    z-index: 4;
+    text-align: center ;
+}
+/*.doto {
+    font-family: "Rye", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "ROND" 0;
   }
-  
-  /* Estils per a pantalles mitjanes (tauletes) */
-  @media (min-width: 601px) and (max-width: 1024px) {
-    body {
-      font-size: 16px;
-    }
-    /* Altres estils específics per a tauletes */
-  }
-  
-  /* Estils per a pantalles grans (ordinadors) */
-  @media (min-width: 1025px) {
-    body {
-      font-size: 18px;
-    }
-    /* Altres estils específics per a ordinadors */
-  }
-  
+  */
