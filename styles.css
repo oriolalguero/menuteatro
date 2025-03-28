@@ -135,6 +135,9 @@ body {
 }
 .text{
     position: center;
+    background-color: #857650;
+    background-size: 15xp;
+    border-radius: 50px;
     top: 150px;
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
@@ -144,6 +147,9 @@ body {
 }
 .text1{
     position: center;
+    background-color: #857650;
+    background-size: 15xp;
+    border-radius: 50px;
     top: 100px;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
@@ -153,6 +159,9 @@ body {
 }
 .text2{
     position: center;
+    background-color: #857650;
+    background-size: 15xp;
+    border-radius: 50px;
     top: 300px;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
