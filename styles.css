@@ -169,3 +169,27 @@ body {
     z-index: 4;
     text-align: center ;
 }
+/* Estils per a pantalles petites (mòbils) */
+@media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+    /* Altres estils específics per a mòbils */
+  }
+  
+  /* Estils per a pantalles mitjanes (tauletes) */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+    /* Altres estils específics per a tauletes */
+  }
+  
+  /* Estils per a pantalles grans (ordinadors) */
+  @media (min-width: 1025px) {
+    body {
+      font-size: 18px;
+    }
+    /* Altres estils específics per a ordinadors */
+  }
+  

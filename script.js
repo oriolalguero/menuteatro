@@ -49,3 +49,4 @@ document.querySelectorAll('.info-btn').forEach(button => {
         info.style.display = info.style.display === 'block' ? 'none' : 'block';
     });
 });
+  
